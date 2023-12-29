@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 body{
     max-width: 1310px;
     width: 100%;
@@ -6,4 +8,32 @@ body{
     height: 100%;
     color: white;
     background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px white;
+}
+.header_logo{
+    margin-left: 56px;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+.header_tabs{
+    margin-top: 20px;
+}
+.ul_tabs{
+    display: flex;
+    list-style-type: none;
+}
+.tab{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tab{
+    margin-right: 56px;
 }
