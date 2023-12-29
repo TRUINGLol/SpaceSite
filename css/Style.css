@@ -1,0 +1,9 @@
+body{
+    max-width: 1310px;
+    width: 100%;
+    margin: auto;
+    max-height: 1261px;
+    height: 100%;
+    color: white;
+    background-color: black;
+}
