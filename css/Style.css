@@ -33,7 +33,42 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-.tab{
     margin-right: 56px;
+}
+
+/*Прижимаю footer к низу?*/
+main{
+    flex: 1 0 auto;
+}
+
+.container_footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+footer{
+    flex: 0 0 auto;
+}
+/*Прижимаю footer к низу?*/
+
+footer{
+    border-top: solid 2px white;
+    display: flex;
+    background-color: #0C0C0C;
+}
+.footer_logo{
+    margin-left: 41px;
+    margin-top: 29px;
+    margin-bottom: 39px;
+}
+.footer_social{
+    display: flex;
+    margin-top: 110px;
+}
+.footer_social_tabs{
+    display: flex;
+    list-style-type: none;
+}
+.tab_social{
+    margin-right: 26px;
 }
