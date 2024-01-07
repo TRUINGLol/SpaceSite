@@ -63,7 +63,8 @@ footer{
 }
 .footer_social{
     display: flex;
-    margin-top: 110px;
+    margin-top: 90px;
+    margin-left: 50px;
 }
 .footer_social_tabs{
     display: flex;
@@ -71,4 +72,40 @@ footer{
 }
 .tab_social{
     margin-right: 26px;
+}
+.footer_social p{
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    margin-left: 38px;
+    color: #5F5F5F;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_citat{
+    position: absolute;
+    right: 360px;
+    top: 870px;
+    color: #959595;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+.footer_tabs{
+    color: #959595;
+    list-style-type: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+    margin-left: 220px;
+}
+.footer_tabs > .ul_tabs{
+    border-bottom: 1px solid #959595;
+    padding-bottom: 15px;
 }
